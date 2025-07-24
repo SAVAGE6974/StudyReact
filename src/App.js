@@ -1,21 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Body from './components/Body';
-import Fotter from './components/Fotter';
-
-function ChildComp(){
-  return <div>Child Component</div>
-}
+import Header from './components/jsxFils/Header';
+import Background from './components/jsxFils/background';
+import mainImage from './components/images/mainImg2.jpg';
+import Nav from './components/jsxFils/nav';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <Body>
-        <ChildComp />
-      </Body>
-      <Fotter />
+      <Nav />
+      <Background background={mainImage} />
     </div>
   );
 }
