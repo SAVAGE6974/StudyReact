@@ -13,7 +13,7 @@ const Main = () => {
 
     return (
         <div className="main">
-            <h1>Main</h1>
+            <h1>This is the Main. if u want to know more about me, click the button below.</h1>
         </div>
     )
 }
